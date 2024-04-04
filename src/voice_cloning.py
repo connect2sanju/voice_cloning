@@ -5,7 +5,7 @@ import subprocess
 input_dir = 'data/input'
 output_dir = 'data/output'
 
-model_path = "models/G_106000.pth"
+model_path = "models/G_106000.pth" #download the model into specific directory
 config_path = "config.json"
 
 os.makedirs(output_dir, exist_ok=True)
